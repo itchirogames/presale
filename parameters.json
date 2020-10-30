@@ -1,0 +1,24 @@
+{
+  "mainnet": {
+    "_owner": "0x5771C19F4DF99fa9b783cB933A5D7a83fE941c6C",
+    "_treasury": "0x5771C19F4DF99fa9b783cB933A5D7a83fE941c6C",
+    "_token": "0x21cf09BC065082478Dcc9ccB5fd215A978Dc8d86",
+    "_startBlock": "11165645",
+    "_endBlock": "11165645+6650",
+    "_endRefundBlock": "11165645+6650*2",
+    "_supply": "3150 ether",
+    "_rate": 3,
+    "_maxInvestment": "3 ether"
+  },
+  "rinkeby": {
+    "_owner": "0x4C4CD2A219F141C324CA4F181dcc14A5D84578Ba",
+    "_treasury": "0x4C4CD2A219F141C324CA4F181dcc14A5D84578Ba",
+    "_token": "0x0",
+    "_startBlock": "+0",
+    "_endBlock": "+6500*7",
+    "_endRefundBlock": "+6500*7*2",
+    "_supply": "3150 ether",
+    "_rate": 3,
+    "_maxInvestment": "3 ether"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "itchiro-presale",
+  "version": "1.0.0",
+  "description": "Itchiro Presale Contracts",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./gas.sh && truffle test",
+    "deploy:testnet": "./gas.sh && truffle deploy --network rinkeby",
+    "deploy": "./gas.sh && truffle deploy --network mainnet",
+    "verify:testnet": "./gas.sh && truffle run verify Presale Token --network rinkeby",
+    "verify": "./gas.sh && truffle run verify Presale --network mainnet",
+    "coverage": "./gas.sh && truffle run coverage"
+  },
+  "author": "Alexander Cucer <alexander.cucer@titanium-soft.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "3.2.0",
+    "@truffle/hdwallet-provider": "^1.1.1",
+    "ethers": "5.0.18",
+    "pify": "^5.0.0"
+  },
+  "peerDependencies": {
+    "truffle": "5.1.49",
+    "solc-js": "0.5.16"
+  },
+  "devDependencies": {
+    "solidity-coverage": "^0.7.11",
+    "truffle-plugin-verify": "^0.5.0"
+  }
+}
